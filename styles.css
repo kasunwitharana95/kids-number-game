@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+body {
+  font-family: "Luckiest Guy", cursive;
+  background-color: #ecdfcd70;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.equation_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.equation_container h1 {
+  width: 0.5em;
+  height: 0.5em;
+  padding: 1em;
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+  user-select: none;
+}
+
+#num1 {
+  color: #f6454f;
+  /* background-color: #ecdfcd; */
+}
+
+#num2 {
+  color: #54b77e;
+  /* background-color: #ecdfcd; */
+}
+
+.operator {
+  color: #2ab7ca;
+  /* background-color: #ecdfcd; */
+}
+
+.equation_mark {
+  color: #fed766;
+  /* background-color: #ecdfcd; */
+}
+
+.question_mark {
+  color: gray;
+}
+
+.answer_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.answer_container h1 {
+  width: 1em;
+  height: 1em;
+  padding: 1em;
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+#option1 {
+  background-color: #fe4a49;
+  color: white;
+}
+
+#option2 {
+  background-color: #fe4a49;
+  color: white;
+}
+
+#option3 {
+  background-color: #fe4a49;
+  color: white;
+}
